@@ -1,4 +1,5 @@
 #!/bin/bash
 # AWS CODE DEPLOY
 
-rm -rf /var/www/html/*
+mkdir -p /var/www/html/${DEPLOYMENT_ID}
+mv /var/www/html/* ${DEPLOYMENT_ID}
