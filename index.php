@@ -1,3 +1,3 @@
 <?php
-echo "Hello World - Dasun wooorks"
+echo "Hello World - v1.6"
 ?>
